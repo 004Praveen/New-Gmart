@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    height: 6vh;
+    background-color: black;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border: 0.5px solid #ffff;
+}
+
+.logo{
+    font-size: 3vw;
+    color: white;
+    font-weight: 400;
+    margin-left: 5vw;
+}
+
+.logo sup{
+    color: red;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.nav-right{
+    display: end;
+}
+
+.buy-zone{
+    text-decoration: none;
+    font-size: 2vw;
+    color: #0eeb0a;
+    margin-right: 1vw;
+    border: .02px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 5px;
+    padding-left: 2px;
+}
+
+
+.About{
+    padding-right: 7vw;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+.hero-section{
+    background-color: rgb(231, 192, 114);
+    width: 100vw;
+}
+
+.hero-section img{
+    background-repeat: no-repeat;
+    width: 95vw;
+    height: 14vh;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.main img{
+    
+}
+
+.backgroundimg{
+    background-image: url(images/backgroudimg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 4vw 5vw ;
+}
+
+.img1,img{
+    background-size: cover;
+    /* background-image: url(images/main.jpg);  */
+    height: 60vh;
+    width: 90vw;
+    /* margin-left: 2.5vw; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    /* margin: 10vw 15vw; */
+}
+
+
+.product{
+    background-color: black;
+    height: 90vh;
+    width: 100vw;
+}
+
+.product h1{
+    color: #ffff;
+    font-size: 4vw;
+    margin-left: 28vw;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    /* align-items: center; */
+}
+
+.productimg{
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.sari-section{
+    background-color: #000000;
+    color: rgb(249, 249, 249);
+    font-size: 2vw;
+    height: 50vh;
+    width: 30vw;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.coat-section{
+    background-color: #000000;
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+    height: 50vh;
+    width: 30vw;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.product1{
+    background-size: cover;
+    height: 60vh;
+    width: 25vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product2{
+    background-size: cover;
+    height: 60vh;
+    width: 25vw;
+}
+
+.more{
+    font-size: 3vw;
+    color: white;
+    margin-top: 25vw;
+    margin-left: 5vw;
+}
+
+
+.main2{
+    background-color: rgb(233, 209, 209);
+    height: 80vh;
+    width: 100vw;
+}
+
+
+.main2 h2{
+    font-size: 5vw;
+    margin-left: 36vw;
+}
+.main2 p{
+    font-size: 2vw;
+    margin-left: 20vw;
+    margin-top: 5vw;
+}
+
+.poster img{
+    background-image: url(images/poster.jpg);
+    height: 50vh;
+    width: 30vw;
+    background-size: cover;
+    margin-left: 30vw;
+}
+
+footer{
+    background-color: black;
+    height: 5vh;
+    color: #ffff;
+    font-size: 2vw;
+    padding: 1vw 2vw;
+    padding-left: 25vw;
+}
+
+footer p{
+
+}
+
+@media screen and (max-width: 500px)  {
+    
+    nav{
+        max-height: 6vh;
+    }
+
+    .logo{
+        font-size: 5vw;
+    }
+    .logo sup{
+        font-weight: 700;
+    }
+
+    .buy-zone{
+        font-size: 5vw;
+        color: chartreuse;
+        
+    }
+
+    .About{
+        font-size: 5vw;
+    }
+
+    .hero-section img{
+        max-height: 13vh;
+    }
+
+    .backgroundimg{
+        max-height: 40vh;
+        /* flex-wrap: wrap; */
+    }
+    .img1 img{
+       max-height: 35vh;
+    }
+
+    .product h1{
+        font-size: 5.5vw;
+        /* margin-right: 10vw; */
+    }
+
+    .sari-section h3{
+        font-size: 2.5vw;
+        max-height: 40vh;
+    }
+
+    .sari-section{
+       max-height: 30vh;
+    }
+
+    .coat-section{
+        font-size: 2.5vw;
+        height: 20vh;
+        background-size: 10vh;
+    }
+
+    .product1{
+        max-height: 25vh;
+        max-width: 35vw;
+    }
+    .product{
+        height: 40vh;
+        flex-wrap: wrap;
+    }
+
+    .product2{
+        max-height: 25vh;
+        max-width: 20vw;
+        margin-left: 2vw;
+    }
+
+    .more{
+        font-size: 4vw;
+    }
+
+    .main2{
+        height: 60vh;
+    }
+
+    .main2 h2{
+        font-size: 6vw;
+        padding-top: 2vw;
+    }
+
+    .main2 p{
+        font-size: 5vw;
+
+    }
+
+    .poster img{
+        height: 33vh;
+        width: 60vw;
+        margin-top: 3vw;
+        margin-right: 10vw;
+    }
+
+    footer{
+        font-size: 4vw;
+        padding-right: 4vw;
+    }
+
+}
